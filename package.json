@@ -10,7 +10,8 @@
     "dev": "concurrently \\\"nodemon\\\" \\\"nodemon.json -x tsoa spec-and-routes\\\"",
     "build": "tsoa spec-and-routes && tsc",
     "start": "node build/src/server.js",
-    "clean": "rm -rf ./build"
+    "clean": "rm -rf ./build",
+    "debug": "ts-node src/server.ts"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.2",
