@@ -1,5 +1,5 @@
-import express,{Request,Response} from "express";
-import { RegisterRoutes } from "../build/routes";
+import express, {Request, Response} from "express";
+import {RegisterRoutes} from "../build/routes";
 import swaggerUi from "swagger-ui-express";
 import winston, {transports} from "winston";
 import expressWinston from 'express-winston';
