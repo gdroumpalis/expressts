@@ -6,7 +6,7 @@ export class PingController extends Controller {
     @Get("ping")
     public async getUser(): Promise<PingResponse> {
         return {
-            message: `hello`
+            message: `success`
         } ;
     }
 }
